@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Story Explaination</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Texturina:wght@500&display=swap" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="story.css">
+</head>
+<body>
+ 	<div class="bg">
+      <img src="storybg.png">
+ 	</div>
+ 	<div class="entry">
+ 		<h2>The <u><b><span id="animal1">null</span></b></u> and The <u><b><span id="animal2">null</span></b></u></h2>
+ 		<hr>
+	    <p>A <u><b><span id="animal1">null</span></b></u> was making fun of the <u><b><span id="animal2">null</span></b></u> one day for being slow.</p>
+
+		<p>"Do you ever get anywhere?" he asked with a mocking laugh.</p>
+
+		<p><u><b><span id="ans">null</span></b></u> replied the <u><b><span id="animal2">null</span></b></u>. "and i get there <u><b><span id="s1">null</span></b></u> than you think. I'll run a race and prove it."</p>
+
+		<p>The <u><b><span id="animal1">null</span></b></u> was so much <u><b><span id="a1">null</span></b></u> at the idea of running a race with the <u><b><span id="animal2">null</span></b></u>. but for the fun of the thing he agreed. So the <u><b><span id="animal3">null</span></b></u>, who has consented to act as judge, marked rthe distance yelled,"<u><b><span id="q1">null</span></b></u>".</p>
+
+		<p>The <u><b><span id="animal1">null</span></b></u> was soon far out of sight, and to make the <u><b><span id="animal2">null</span></b></u> feel very deeply how ridiculous it was for him to try a race with a <u><b><span id="animal1">null</span></b></u>. he went off the course to practise <u><b><span id="v1">null</span></b></u> for <u><b><span id="n1">null</span></b></u> hours untill the <u><b><span id="animal2">null</span></b></u> should catch up.</p>
+
+		<p>The <u><b><span id="animal2">null</span></b></u> meanwhile kept going slowly but steadily, and, after a time, passed the place where the <u><b><span id="animal1">null</span></b></u> was <u><b><span id="v1">null</span></b></u>. The <u><b><span id="animal1">null</span></b></u> was so caught up in <u><b><span id="v1">null</span></b></u>; and when at last he did stop, the <u><b><span id="animal2">null</span></b></u> was near the goal. The <u><b><span id="animal1">null</span></b></u> now ran his swiftest, but he could not overtake the <u><b><span id="animal2">null</span></b></u> in time.</p>
+		<h2>Moral of the story:</h2>
+		<p><i>"<span id="m1">null</span><br>This is a meaningfull message."</i></p>
+	</div>
+	<script>
+	
+		var elements = document.querySelectorAll('[id="animal1"]');
+		for (i=0; i < elements.length; i++){
+			console.log(elements)
+		elements[i].innerHTML=localStorage.getItem("anmi1");
+		}
+		
+		var elements = document.querySelectorAll('[id="animal2"]');
+		for (i=0; i < elements.length; i++){
+		elements[i].innerHTML=localStorage.getItem("anmi2");
+		}
+		
+		var elements = document.querySelectorAll('[id="v1"]');
+		for (i=0; i < elements.length; i++){
+		elements[i].innerHTML=localStorage.getItem("verb1");
+		}
+		document.getElementById('animal3').innerHTML=localStorage.getItem("anmi3");
+		document.getElementById('a1').innerHTML=localStorage.getItem("adj1");
+		document.getElementById('n1').innerHTML=localStorage.getItem("num1");
+		document.getElementById('s1').innerHTML=localStorage.getItem("speed1");
+		document.getElementById('q1').innerHTML=localStorage.getItem("quote1");
+		document.getElementById('m1').innerHTML=localStorage.getItem("message1");
+		document.getElementById('ans').innerHTML=localStorage.getItem("answer1");
+
+
+
+		
+	</script>
+</body>
+</html>

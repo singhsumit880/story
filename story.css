@@ -1,0 +1,86 @@
+ 
+body {
+	background-image: url(crow.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+
+}
+
+form {
+  line-height: 30px;
+}
+
+
+input[type="text"], input[type="number"] {
+  min-height: 15px;
+  border-radius: 5px;
+  border:2px solid black;
+  font-family: 'Texturina', serif;
+  min-width: 20%;
+}
+
+.entry {
+
+  background-color: #66ff66;
+  opacity:0.9;
+  text-align: center;
+  height: auto;
+  border-radius: 15px;
+  margin: 2% 10%;
+  overflow: auto;
+}
+
+
+.bg {
+  background-color: #66ff66;
+  opacity:0.9;
+  border-radius: 15px;
+  height: 30%;
+  margin: 2% 10%;
+
+}
+
+.bg img {
+  display: block;
+  width: 300px;
+  height: 130px;
+  padding-left: 35%;
+
+
+}
+h1{
+	font-family: 'Texturina', serif;
+}
+form label{
+	font-family: 'Texturina', serif;
+	font-size: 25px;
+}
+span{
+	font-family: 'Texturina', serif;
+	font-size: 30px;
+  color: red;
+
+}
+p{
+  font-family: 'Texturina', serif;
+  font-size: 25px;
+}
+.button {
+  font-family: 'Texturina', serif;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight:bold;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+h2{
+  font-family: 'Texturina', serif;
+  font-size: 25px;
+}
